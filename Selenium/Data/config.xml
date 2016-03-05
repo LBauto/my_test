@@ -1,0 +1,22 @@
+<?xml version='1.0'  encoding='utf-8' ?>
+<config>
+    <browser selected = 'chrome' />
+    <envs selected='beta' port ='2000'>
+        <env key = 'beta' url = 'http://w-beta-1000.chemanman.com' />
+        <env key = 'pro' url = 'http://yundan.chemanman.com/' />
+        <env key = 'gamma' url = 'http://w-gamma-1000.chemanman.com:81/' />
+        <env key = 'prod-1001' url = 'http://w-prod-1001.chemanman.com/' />
+        <env key = 'alpha' url = 'http://w-alpha-1000.chemanman.com' />
+    </envs>
+    <users selected = 'longbin'>
+        <user username='tamp' userdata = '889605/889605' />
+        <user username='longbin' userdata = '18610819542/123456' />
+        <user username='shoudongfa' userdata = '18610819543/819543' />
+        <user username='xiaowang' userdata = '18610818762/818762' />
+        <user username='lb_huozhan' userdata = '18617654321/123456' />
+        <user username='dabinzi' userdata = '15831939970/123456' />
+        <user username='erpi' userdata = '13661345155/123456' />
+        <user username='gongchan' userdata = '15931671723/123456' />
+    </users>
+    </config>
+
