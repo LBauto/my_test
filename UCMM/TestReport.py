@@ -1,7 +1,7 @@
 __author__ = 'lonwu'
 
 import unittest
-from Selenium.Controller import Report
+
 import HTMLTestRunner
 global i
 i = 1
@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
 		print i_list
 
 
-if __name__ == 'TestReport':
+if __name__ == '__main__':
 	print 'run main'
 	u = unittest.TestSuite()
 	u.addTest(MyTestCase('test_something'))
