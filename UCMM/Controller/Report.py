@@ -14,7 +14,10 @@ class Report(object):
 		self.name = file_name
 
 	def report_html(self):
-		filename = os.getcwd()+'\\Results\\'+self.name+'_'+datetime.datetime.now().strftime('_%H_%M_%S')+'.html'
+		path = os.getcwd()+'\\Results\\'
+		if not os.path.exists(path):
+			os.makedirs(path)
+		filename = path+self.name+'_'+datetime.datetime.now().strftime('_%H_%M_%S')+'.html'
 		# filename = "D:/test3.html"
 		fp = file(filename, 'wb')
 

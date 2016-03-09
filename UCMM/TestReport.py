@@ -1,7 +1,7 @@
 __author__ = 'lonwu'
 
 import unittest
-
+from UCMM.Controller import Report
 import HTMLTestRunner
 global i
 i = 1

@@ -4,7 +4,7 @@ __author__ = 'lonwu'
 from selenium import webdriver
 import Page
 import CarRecordPage
-from Selenium.Controller import TableListControl
+from UCMM.Controller import TableListControl
 
 
 class CarManagePage(Page.Page):

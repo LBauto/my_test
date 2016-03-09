@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
-from Selenium.Controller import Report
+from UCMM.Controller import Report
 import sys
 import HTMLTestRunner
 

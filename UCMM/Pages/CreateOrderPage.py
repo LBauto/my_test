@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'lonwu'
 from selenium.webdriver.support.ui import Select
-from Selenium.Model import Order_Model
+from UCMM.Model import Order_Model
 import Page
 import OrderInfoPage
 from selenium.common.exceptions import NoSuchElementException

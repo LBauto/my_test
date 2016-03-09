@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 __author__ = 'lonwu'
-from Selenium.Controller import HeaderControl, TableListControl, Driver, DialogControl
+from UCMM.Controller import HeaderControl, TableListControl, Driver, DialogControl
 
 
 class Page(Driver.Driver):

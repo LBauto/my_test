@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 __author__ = 'lonwu'
 import MyTestCase
-from Selenium.Pages import SignIn, OrderListPage, PayBillingSettleListPage, CreateOrderPage
+from UCMM.Pages import SignIn, OrderListPage, PayBillingSettleListPage, CreateOrderPage
 import time
-from Selenium.Controller import Report
+from UCMM.Controller import Report
 import unittest
 
 

@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 __author__ = 'lonwu'
 
-from Selenium.Pages import Page, SignIn
-from Selenium.Data import Get_excel_data
+from UCMM.Pages import Page, SignIn
+from UCMM.Data import Get_excel_data
 import unittest
 import os
 import unittest.result
-from Selenium.Data import Env, User
+from UCMM.Data import Env, User
 
 
 class MyTestCase(unittest.TestCase):

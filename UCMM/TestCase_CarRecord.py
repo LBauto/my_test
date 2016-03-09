@@ -4,8 +4,8 @@ __author__ = 'lonwu'
 import MyTestCase
 import time
 import requests
-from Selenium.Pages import CarRecordPage, SelectOrderDialog, ReceiptTotalPage
-from Selenium.Data import Get_excel_data
+from UCMM.Pages import CarRecordPage, SelectOrderDialog, ReceiptTotalPage
+from UCMM.Data import Get_excel_data
 
 
 class TestCase(MyTestCase.MyTestCase):

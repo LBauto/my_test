@@ -3,7 +3,7 @@
 __author__ = 'lonwu'
 import xlrd
 import os
-from Selenium.Model import Order_Model
+from UCMM.Model import Order_Model
 
 
 class GetData(object):
