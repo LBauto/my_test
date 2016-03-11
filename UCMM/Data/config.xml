@@ -3,7 +3,7 @@
     <browser selected = 'chrome' />
     <envs selected='beta' port ='2000'>
         <env key = 'beta' url = '' />
-        <env key = 'pro' url = 'http://yundan.chemanman.com/' />
+        <env key = 'pro' url = '' />
         <env key = 'gamma' url = '' />
         <env key = 'prod-1001' url = '' />
         <env key = 'alpha' url = '/>
